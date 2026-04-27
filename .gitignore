@@ -1,11 +1,23 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+# Build output
+bin/
+obj/
 
-/TaskbarMeters/.vs/TaskbarMeters/v15/Server/sqlite3
-/TaskbarMeters/TaskbarBatteryMeter/obj
-/TaskbarMeters/.vs/TaskbarMeters/v15
-/TaskbarMeters/TaskbarCore/obj
-/TaskbarMeters/TaskbarCpuMeter/obj
-/TaskbarMeters/TaskbarDiskIOMeter/obj
-/TaskbarMeters/TaskbarMemoryMeter/obj
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+project.lock.json
+project.assets.json
+
+# Rider
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
